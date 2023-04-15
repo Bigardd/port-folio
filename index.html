@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal port-folio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/083b0c1d19.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="uche.logo.jpg" alt="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h4>Frontend website Developer.</j4>
+            <h1>
+              Hi, I'm <span>Bigard</span> <br />
+              Amukamara.
+            </h1>
+          </div>
+      </div>
+    </div>
+    <hr>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
+            <img src="bigard.jpg" alt="" />
+          </div>
+          <div class="col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              From the very moment I produced 'Hello World' in the console of my
+              first website, I knew I was hooked into the world of software
+              development. I am a very hardworking and efficient web Developer
+              who has gained extensive training and knowledge in the field of
+              Development.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Html5</span> <br />
+                  Css
+                </li>
+                <li>
+                  <span>Sass</span> <br />
+                  Bootstrap
+                </li>
+                <li>
+                  <span>Tailwind</span><br />
+                  TypeScript
+                </li>
+                <li>
+                  <span>Javscript</span> <br />
+                  React.Js
+                </li>
+                <li>
+                  <span>Redux</span> <br />
+                  Node.Js
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>College-</span>
+                  Bs.c Human Resources Management
+                </li>
+                <li>
+                  <span>Html-</span>
+                  Dr Angela yu The Complete Web Development Bootcamp
+                </li>
+                <li>
+                  <span>CSS,SASS-</span>
+                  The Complete Guide 2023 by Maxmillian Schwarzmuller, Manuel
+                  Lorenz on Udemy
+                </li>
+                <li>
+                  <span>Javascript- </span>
+                  The Complete Javascript Course; From zero to expert by Jonas
+                  Schmedtmann.
+                </li>
+                <li>
+                  <span>React and Redux- </span>
+                  The Complete Guide; From zero to expert by Maxmillian
+                  Schwarzmuller.
+                </li>
+                <li>
+                  <span>Typescript- </span>
+                  The Complete Course by Maxmillian Schwarzmuller
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              As a frontend developer intern, I gained experience in building
+              responsive, user-friendly web applications using modern web
+              technologies such as HTML,CSS and Javascript. During my
+              Internship, I worked collaboratively with other developers and
+              designers to implement user interfaces that were both visually
+              appealing and functional. I also became proficient in working with
+              popular frontend frameworks such as React Js. Through this
+              internship, I developed a strong understanding of Web Development
+              best practices, such as version control and Agile Development
+              Methodologies, and learned how to effectively communicate with
+              stakeholders and team members to ensure successful project
+              delivery.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- -------services---- -->
+    <div id="Services">
+      <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Building of User Interface and the User Experience of a website
+              and also making it responsive and user user-friendly.
+            </p>
+            <a
+              href="https://careerfoundry.com/en/tutorials/web-development-for-beginners/introduction-to-web-development/"
+              >Learn more...</a
+            >
+          </div>
+
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Mobile App Development</h2>
+            <p>
+              Mobile application development is the process of making software
+              for smartphones, tablets and digital assistants, most commonly for
+              the Android and iOS ...
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Mobile_app_development"
+              >Learn more...</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Web Design</h2>
+            <p>
+              Web design is what creates the overall look and feel when you're
+              using a website. It's the process of planning and building the
+              elements of your website...I would love to share my ideas on good
+              web designs.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Web_design">Learn more...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- ----------portfolio--- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img class="net-img" src="netflix.jpg" alt="" />
+            <div class="layer">
+              <h3>NETFLIX APP</h3>
+              <p>
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries ...
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img class="net-img" src="whatsapp.jpg" alt="" />
+            <div class="layer">
+              <h3>WHATSAPP</h3>
+              <p>
+                WhatsApp also called WhatsApp Messenger is an internationally available freeware, cross-platform, centralized instant messaging (IM) and VOICE-OVER-IP
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img class="net-img" src="todo-list.jpg" alt="" />
+            <div class="layer">
+              <h3>TODO-LIST APP</h3>
+              <p>
+                Gain muscles, endurance, max strength or get toned with Gym Workout Tracker through expertly designed sets, reps and weight! 
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <!-- <a href="" class="btn">See more</a> -->
+        <hr>
+      </div>
+    </div>
+    <!-- ----------contact------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fas fa-paper-plane"></i>amukamara7@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>09068150529</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/amukamara.uche"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/amukamara7"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/p/CnDGWnaDmnB/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/feed/?doFeedRefresh=true&nis=true&&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bev%2BCywW9S0SgFFjSXrKzng%3D%3D"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <div class="classs-right">
+              <form name="submit-to-google-sheet">
+                <input
+                  type="text"
+                  placeholder="your name"
+                  name="Name"
+                  required
+                />
+                <input
+                  type="email"
+                  placeholder="your email"
+                  name="Email"
+                  required
+                />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="your message"
+                ></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright <i class="fa-regular fa-copyright"></i> Bigard Amukamara's work <i class="fa-solid fa-heart"></i></p>
+    </div>
+    <script>
+      const tablinks = document.getElementsByClassName("tab-links");
+      const tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwnyahtzPerOjrhEXo56kY5_QGn1Htod3cdDCCh_Zh2m5xnPyB3kZNmkdnECuAl97Iw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML='Message sent successfully'
+        setTimeout(function(){
+        msg.innerHTML= ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+  </body>
+</html>
